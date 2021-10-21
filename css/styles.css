@@ -22,7 +22,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "roboto", "sans-serif";
   font-size: 14px;
@@ -50,7 +49,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 /*-----------header-------------------------------------------------------------------*/
 header {
   background-color: white;
@@ -73,7 +71,6 @@ header {
 .header-container {
   display: flex;
 }
-
 .menu-list {
   display: flex;
 }
@@ -89,7 +86,6 @@ header {
   margin-left: auto;
   align-items: center;
 }
-
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -103,7 +99,6 @@ header {
 .menu-link:focus {
   color: var(--accent-color);
 }
-
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -137,7 +132,6 @@ header {
   padding-bottom: 200px;
   flex-grow: 1;
 }
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -149,7 +143,6 @@ header {
   margin-right: auto;
   width: 696px;
 }
-
 .hero-button {
   font-weight: 700;
   font-size: 16px;
@@ -169,7 +162,6 @@ header {
   padding-bottom: 28px;
   background-color: #e5e5e5;
 }
-
 .section-advantage-title {
   display: flex;
 }
@@ -204,7 +196,6 @@ header {
   flex-wrap: wrap;
   margin-bottom: -30px;
   margin-left: -30px;
-
   justify-content: center;
 }
 .work-list-img {
@@ -214,9 +205,7 @@ header {
 .work-list-img:not(:last-child) {
   margin-right: 30px;
 }
-
 /*------------section team----------------------------------------------------*/
-
 .section-team {
   background-color: var(--background-color-light);
 }
@@ -241,7 +230,6 @@ header {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-
 .team-list {
   font-weight: 500;
   font-size: 16px;
@@ -261,7 +249,6 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .logo-footer {
   font-family: Raleway, "sans-serif";
   font-style: normal;
@@ -272,7 +259,6 @@ header {
   margin-bottom: 20px;
   display: inline-block;
 }
-
 .address-list {
   margin-bottom: 9px;
 }
@@ -292,19 +278,16 @@ header {
 .footer-contacts:hover {
   color: var(--accent-color);
 }
-
 /*-----------------portfolio-------------------------------------------------------*/
 .section-portfolio-maim {
   background-color: #e5e5e5;
 }
-
 .section-portfolio {
   display: flex;
   padding-top: 94px;
   padding-bottom: 34px;
   justify-content: center;
 }
-
 .button-portfolio-list:not(:last-child) {
   margin-right: 8px;
 }
@@ -337,13 +320,11 @@ header {
   margin-bottom: -30px;
   justify-content: center;
 }
-
 .portfolio-items {
   flex-basis: calc(100%-3 * 30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
-
 .text-cards {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;

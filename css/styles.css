@@ -232,6 +232,12 @@ body {
 
 
 /*===========footer===========*/
+
+.footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .page-footer {
     background-color: var(--secondary-background-color-dark);
 }
@@ -239,4 +245,6 @@ body {
     line-height:1.5;
     letter-spacing: 0.02em;
     color: var(--primary-background-color-light);
+    max-width: 264px;
+    margin-top: 16px;
 }

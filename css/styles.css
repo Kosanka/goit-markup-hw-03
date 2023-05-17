@@ -1,0 +1,191 @@
+:root {
+    --accent-color:#404BBF;
+    --primary-background-color-light:#F4F4FD;
+    --secondary-background-color-dark:#2E2F42;
+    --primary-text-color-dark: #2E2F42;
+    --primary-text-color-light:#434455;
+    --primary-text-color-white:#ffffff;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*header*/
+.logo{
+    color: #4D5AE5;
+    font-family: 'Raleway';
+ 
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.logo-header{
+    color: var(--primary-text-color-dark);
+}
+
+.logo-footer{
+    color: var(--primary-background-color-light);
+}
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-dark);
+}
+.menu-link:hover, .menu-link:focus{
+    color: var(--accent-color);
+}
+
+.contact-mail {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-light);
+}
+
+.contact-tel {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-light);
+}
+.contact-mail:active, .contact-tel:active{
+    color: var(--accent-color);
+}
+
+/*hero*/
+
+.hero-section {
+    background: var(--secondary-background-color-dark);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-white);
+}
+.hero-btn {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    background: #4D5AE5;
+    color: var(--primary-text-color-white);
+    border:none;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--accent-color);
+}
+
+/*advantages*/
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-dark);
+}
+.advantages-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-light);
+}
+
+/*product*/
+
+.product-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*team*/
+
+.team-section {
+    background: var(--primary-background-color-light);
+}
+
+.team-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color-dark);
+}
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-dark);
+}
+
+.team-subtitle {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-light);
+}
+
+/*portfolio*/
+
+.service-filter-btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--primary-background-color-light);
+    color: #4D5AE5;
+    border: none;
+}
+
+.service-filter-btn:hover, .service-filter-btn:focus {
+    background: var(--accent-color);
+    color:var(--primary-text-color-white)
+}
+
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-dark);
+}
+
+.service-subtitle {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-light);
+}
+
+
+
+/*footer*/
+.page-footer {
+    background-color: var(--secondary-background-color-dark);
+}
+.footer-text{
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-background-color-light);
+}

@@ -10,28 +10,69 @@
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
+
 button {
     cursor: pointer;
     font-family: inherit;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
-/*header*/
-.logo{
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*===============header=============*/
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
     color: #4D5AE5;
-    font-family: 'Raleway';
- 
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-header{
@@ -40,6 +81,11 @@ body {
 
 .logo-footer{
     color: var(--primary-background-color-light);
+}
+
+.menu {
+    display: flex;
+    align-items: center
 }
 
 .menu-link {
@@ -52,24 +98,21 @@ body {
     color: var(--accent-color);
 }
 
-.contact-mail {
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color-light);
+.contact {
+    display: flex;
+    align-items: center
 }
 
-.contact-tel {
-    font-style: normal;
+.contact-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-light);
 }
-.contact-mail:active, .contact-tel:active{
+.contact-item:active{
     color: var(--accent-color);
 }
 
-/*hero*/
+/*===========hero===========*/
 
 .hero-section {
     background: var(--secondary-background-color-dark);
@@ -95,7 +138,7 @@ body {
     background-color: var(--accent-color);
 }
 
-/*advantages*/
+/*===========advantages===========*/
 
 .advantages-title {
     font-weight: 500;
@@ -110,7 +153,7 @@ body {
     color: var(--primary-text-color-light);
 }
 
-/*product*/
+/*===========product===========*/
 
 .product-title {
     font-weight: 700;
@@ -120,7 +163,7 @@ body {
     text-transform: capitalize;
 }
 
-/*team*/
+/*============team============*/
 
 .team-section {
     background: var(--primary-background-color-light);
@@ -148,7 +191,7 @@ body {
     color: var(--primary-text-color-light);
 }
 
-/*portfolio*/
+/*==========portfolio==========*/
 
 .service-filter-btn {
     font-weight: 500;
@@ -180,7 +223,7 @@ body {
 
 
 
-/*footer*/
+/*===========footer===========*/
 .page-footer {
     background-color: var(--secondary-background-color-dark);
 }

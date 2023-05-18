@@ -191,7 +191,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-light);
-    padding-top: 8px;
+    margin-top: 8px;
 }
 
 /*===========product===========*/
@@ -204,6 +204,10 @@ body {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
+}
+
+.product-section {
+    padding-top: 0;
 }
 
 .product-list {
@@ -230,6 +234,8 @@ body {
     background: var(--primary-background-color-light);
 }
 
+
+
 .team-main-title {
     font-weight: 700;
     font-size: 36px;
@@ -240,12 +246,22 @@ body {
     text-align: center;
     margin-bottom: 72px;
 }
+
+.team-title-box {
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-dark);
+    margin-bottom: 8px;
 }
 
 .team-subtitle {
@@ -255,18 +271,27 @@ body {
 }
 
 /*==========portfolio==========*/
+.service-filter-section {
+    padding-top: 0;
+}
+
+/*=============btn===============*/
+.filter-list-container {
+    display: flex;
+    row-gap: 24px;
+    column-gap: 48px;
+
+}
 
 .service-filter-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-    
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
-
-/*.service-filter-item {
-    flex-basis: calc((100%-24px)/5)
-}
-*/
 
 .service-filter-btn {
     font-weight: 500;
@@ -286,12 +311,26 @@ body {
     color:var(--primary-text-color-white)
 }
 
+/*===============img==============*/
+
+
 .service-list {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 48px;
-    flex-basis: calc((100%-24px)/9)
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.service-item {
+flex-basis: calc((100%-48px)/9)
+}
+  
+.service-title-box{
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .service-title {
@@ -300,6 +339,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-dark);
+    margin-bottom: 16px;
 }
 
 .service-subtitle {

@@ -52,6 +52,11 @@ body {
     padding-right: 15px;
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /*===============header=============*/
 
 .page-header-container {
@@ -126,13 +131,13 @@ body {
     background: var(--secondary-background-color-dark);
     }
 
-.container-footer{
+.container-hero{
     
     padding-top: 188px;
     padding-bottom: 188px;
     
     text-align: center;
-text-align: center;
+    text-align: center;
 }
 
 .hero-title {
@@ -144,7 +149,7 @@ text-align: center;
     margin-bottom: 48px;
     max-width: 496px;
     margin-left: auto;
-        margin-right: auto;
+    margin-right: auto;
     
 }
 .hero-btn {
@@ -164,6 +169,15 @@ text-align: center;
 }
 
 /*===========advantages===========*/
+
+.advantages-list{
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-item{
+    max-width: 264px;
+}
 
 .advantages-title {
     font-weight: 500;
@@ -225,6 +239,11 @@ text-align: center;
     background: var(--primary-background-color-light);
     color: #4D5AE5;
     border: none;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    min-width: 69px;
+    padding: 12px 24px;
+
 }
 
 .service-filter-btn:hover, .service-filter-btn:focus {

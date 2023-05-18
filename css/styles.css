@@ -124,6 +124,15 @@ body {
 
 .hero-section {
     background: var(--secondary-background-color-dark);
+    }
+
+.container-footer{
+    
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
+    text-align: center;
+text-align: center;
 }
 
 .hero-title {
@@ -132,6 +141,11 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-white);
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin-left: auto;
+        margin-right: auto;
+    
 }
 .hero-btn {
     font-style: normal;
@@ -140,9 +154,12 @@ body {
     background: #4D5AE5;
     color: var(--primary-text-color-white);
     border:none;
+    min-width: 169px;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
-.hero-btn:hover, .hero-btn:focus {
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
     background-color: var(--accent-color);
 }
 

@@ -74,6 +74,7 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
@@ -90,6 +91,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    text-align: center;
 }
 
 .logo-header{
@@ -98,7 +100,8 @@ img {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+    
 }
 
 .menu-link {
@@ -106,6 +109,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-dark);
+    padding: 24px 0;
 }
 
 .menu-link:hover, .menu-link:focus{
@@ -119,7 +123,7 @@ img {
 .contact-list {
     display: flex;
     margin-left: auto;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .contact-item {
@@ -164,6 +168,7 @@ img {
     letter-spacing: 0.04em;
     background: #4D5AE5;
     color: var(--primary-text-color-white);
+    border: none;
     border-radius: 4px;
     min-width: 169px;
     padding: 16px 32px 16px 32px;
@@ -171,6 +176,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 56px;
     
 }
 
@@ -183,7 +189,7 @@ img {
 
 .advantages-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .advantages-item {
@@ -252,16 +258,13 @@ img {
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
     
 }
 
 .team-item {
     flex-basis: calc((100% - 72px) / 4);
-}
-
-.team-card {
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-title-box {
@@ -325,7 +328,7 @@ img {
 .service-filter-list {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
     margin-bottom: 72px;
 }
 
@@ -359,6 +362,10 @@ img {
 .service-item {
     flex-basis: calc((100% - 48px) / 3);
     
+}
+.service-title-box {
+    padding: 32px 16px;    
+    border: 1px solid #E7E9FC;
 }
 
 .service-title {

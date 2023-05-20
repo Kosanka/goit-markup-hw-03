@@ -45,8 +45,8 @@ ol {
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    /*max-width: 100%;
+    height: auto;*/
 }
 
 .container {
@@ -258,9 +258,16 @@ img {
 
 /*======================== portfolio ========================*/
 
+.service-filter-section {
+    padding-top: 0;
+}
 
 .service-filter-list {
-    list-style: none
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    padding-top: 96px;
+    margin-bottom: 72px;
 }
 
 .service-filter-btn {
@@ -272,11 +279,25 @@ img {
     background: var(--primary-background-color-light);
     color: #4D5AE5;
     border: none;
+    padding: 12px 24px 12px 24px;
+    
 }
 
 .service-filter-btn:hover, .service-filter-btn:focus {
     background: var(--accent-color);
     color:var(--primary-text-color-white)
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.service-item {
+    flex-basis: calc((100% - 48px) / 3);
+    
 }
 
 .service-title {

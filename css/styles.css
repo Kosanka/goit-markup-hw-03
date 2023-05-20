@@ -137,6 +137,9 @@ img {
 
 .hero-section {
     background: var(--secondary-background-color-dark);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
 }
 
 .hero-title {
@@ -147,6 +150,9 @@ img {
     letter-spacing: 0.02em;
     color: var(--primary-text-color-white);
     text-align: center;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-btn {
     font-size: 16px;
@@ -157,6 +163,9 @@ img {
     background: #4D5AE5;
     color: var(--primary-text-color-white);
     border:none;
+    padding: 16px 32px 16px 32px;
+    margin-top: 48px;
+    
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -166,6 +175,14 @@ img {
 
 /*=================== advantages ===================*/
 
+.advantages-list{
+    display: flex;
+    column-gap: 24px;
+}
+
+.advantages-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
 
 .advantages-title {
     font-weight: 500;
@@ -173,6 +190,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-dark);
+    margin-bottom: 8px;
 }
 .advantages-text {
     line-height: 1.5;
@@ -183,6 +201,18 @@ img {
 
 /*====================== product ======================*/
 
+.product-section {
+    padding-top: 0;
+}
+
+.product-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.product-item {
+    flex-basis: calc((100% - 48px) /3);
+}
 
 .product-title {
     text-align: center;
@@ -192,6 +222,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-text-color-dark);
+    margin-bottom: 72px;
 }
 
 
@@ -202,10 +233,6 @@ img {
     background-color: #F4F4FD;
 }
 
-.team-list {
-    background-color: #FFFFFF
-}
-
 .team-main-title {
     font-weight: 700;
     font-size: 36px;
@@ -214,19 +241,40 @@ img {
     text-transform: capitalize;
     color: var(--primary-text-color-dark);
     text-align: center;
+    padding-bottom: 72px;
 }
+
+.team-list {
+    display: flex;
+    column-gap: 24px;
+    
+}
+
+.team-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.team-title-box {
+    padding: 32px 16px 32px 16px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+
+}
+
 .team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-dark);
+    text-align: center;
 }
 
 .team-subtitle {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-light);
+    text-align: center;
 }
 
 
